@@ -43,7 +43,8 @@
 			
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float3 PosData = PositionToPositionData( float3(i.uv.x, 0, i.uv.y) );
+				float3 Position = float3(i.uv.y, 4, i.uv.x) * 5;
+				float3 PosData = PositionToPositionData( Position );
 				return float4( PosData, 1 );
 			}
 			ENDCG

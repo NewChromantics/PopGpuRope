@@ -136,7 +136,7 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 165469714}
-  m_Mesh: {fileID: 4300000, guid: 7b11235b5eba5469b928b6bbfb3776b0, type: 3}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &165469717
 Transform:
   m_ObjectHideFlags: 0
@@ -145,7 +145,7 @@ Transform:
   m_GameObject: {fileID: 165469714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 30, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PositionData: {fileID: 8400000, guid: 4fbfdba0d2ffb40909fb7eba72826a6f, type: 2}
   PositionInit: {fileID: 2100000, guid: 8926ff7c3c6a4480fbebfea796cad4e0, type: 2}
+  PositionUpdate: {fileID: 2100000, guid: 17a76d67ef4184496b2bfb880c7a3335, type: 2}
 --- !u!4 &226071842
 Transform:
   m_ObjectHideFlags: 0
@@ -185,7 +186,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 226071840}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 15, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
