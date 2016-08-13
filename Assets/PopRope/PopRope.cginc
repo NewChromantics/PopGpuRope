@@ -20,15 +20,11 @@ float3 PositionDataToPosition(float3 PosData)
 
 float3 PositionToPositionData(float3 Pos)
 {
-	return clamp( 0, 1, Range3( POSITION_MIN, POSITION_MAX, Pos ) );
+	return clamp( 0.111, 0.999, Range3( POSITION_MIN, POSITION_MAX, Pos ) );
 }
 
-float2 GetDataUv(int RopeIndex,float RopeTime)
+bool GetRopeStatic(int RopeIndex,int ChunkIndex)
 {
-	return float2( (float)RopeIndex, RopeTime );
+	return ChunkIndex == 0;
 }
 
-bool GetRopeStatic(int RopeIndex,float RopeTime)
-{
-	return (RopeTime > 0.8f);
-}

@@ -15,41 +15,47 @@ Material:
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
-      data:
-        first:
-          name: PositionData
-        second:
-          m_Texture: {fileID: 8400000, guid: 4fbfdba0d2ffb40909fb7eba72826a6f, type: 2}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: PositionDataLast
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: VelocityDataLast
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: VelocityData
-        second:
-          m_Texture: {fileID: 8400000, guid: 049312c8b90714c07bff9726163b16ec, type: 2}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
+    - first:
+        name: PositionData
+      second:
+        m_Texture: {fileID: 8400000, guid: 4fbfdba0d2ffb40909fb7eba72826a6f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: PositionDataLast
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: VelocityData
+      second:
+        m_Texture: {fileID: 8400000, guid: 049312c8b90714c07bff9726163b16ec, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: VelocityDataLast
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-      data:
-        first:
-          name: GravityPerSecond
-        second: -5
-      data:
-        first:
-          name: AirFriction
-        second: 0.57
-    m_Colors: {}
+    - first:
+        name: AirFriction
+      second: 0.816
+    - first:
+        name: ChunkLength
+      second: 0.237
+    - first:
+        name: ChunkLengthToleranceMax
+      second: 0.179
+    - first:
+        name: GravityPerSecond
+      second: -0.27
+    - first:
+        name: PrevOrNextForceWeight
+      second: 0.217
+    - first:
+        name: SpringStrength
+      second: 0.842
+    m_Colors: []
