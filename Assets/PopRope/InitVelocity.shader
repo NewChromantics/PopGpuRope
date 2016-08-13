@@ -1,4 +1,4 @@
-﻿Shader "PopRope/InitPosition"
+﻿Shader "PopRope/InitVelocity"
 {
 	Properties
 	{
@@ -40,7 +40,7 @@
 			
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float3 Position = float3(i.uv.y * 5, 5, i.uv.x * 2);
+				float3 Position = float3(0,0,0);
 				float3 PosData = PositionToPositionData( Position );
 				return float4( PosData, 1 );
 			}
